@@ -35,7 +35,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9F-aX-4Wq">
-                                <rect key="frame" x="35" y="149" width="530" height="31"/>
+                                <rect key="frame" x="244" y="149" width="113" height="31"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -46,9 +46,11 @@
                         <constraints>
                             <constraint firstAttribute="leadingMargin" secondItem="ATV-eo-Zbd" secondAttribute="leading" id="DUb-jf-tbp"/>
                             <constraint firstItem="w9F-aX-4Wq" firstAttribute="top" secondItem="ZNw-Zq-Pxs" secondAttribute="bottom" constant="8" id="J6r-Jh-N4E"/>
+                            <constraint firstItem="w9F-aX-4Wq" firstAttribute="width" secondItem="ZNw-Zq-Pxs" secondAttribute="width" id="NPh-Nx-re1"/>
                             <constraint firstItem="ATV-eo-Zbd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="RZ6-tU-xqj"/>
                             <constraint firstItem="mpw-9D-X7F" firstAttribute="centerX" secondItem="ATV-eo-Zbd" secondAttribute="centerX" id="W5l-c6-ntN"/>
                             <constraint firstItem="w9F-aX-4Wq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="fGu-el-WJh"/>
+                            <constraint firstItem="w9F-aX-4Wq" firstAttribute="centerX" secondItem="ZNw-Zq-Pxs" secondAttribute="centerX" id="hmo-JO-ww8"/>
                             <constraint firstItem="mpw-9D-X7F" firstAttribute="top" secondItem="ATV-eo-Zbd" secondAttribute="bottom" constant="8" id="mPv-rD-oD7"/>
                             <constraint firstItem="mpw-9D-X7F" firstAttribute="width" secondItem="ATV-eo-Zbd" secondAttribute="width" id="ozk-dR-Cpi"/>
                             <constraint firstItem="ZNw-Zq-Pxs" firstAttribute="top" secondItem="mpw-9D-X7F" secondAttribute="bottom" constant="8" id="rba-ln-0w9"/>
@@ -56,6 +58,12 @@
                             <constraint firstItem="ZNw-Zq-Pxs" firstAttribute="centerX" secondItem="mpw-9D-X7F" secondAttribute="centerX" id="w4v-gM-SzO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="w9F-aX-4Wq" secondAttribute="trailing" constant="15" id="wBL-YG-MEv"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fGu-el-WJh"/>
+                                <exclude reference="wBL-YG-MEv"/>
+                            </mask>
+                        </variation>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="mhr-k7-A2e" appends="YES" id="5mt-3t-VOo"/>
                         </connections>
