@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		767A05E81CF534D0001807E2 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767A05E71CF534D0001807E2 /* MainMenuViewController.m */; };
 		76C9D9231CF49D94004C18D3 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9D9221CF49D94004C18D3 /* WhiskeyViewController.m */; };
 		76F009A71CF3E81C00B19888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F009A61CF3E81C00B19888 /* main.m */; };
 		76F009AA1CF3E81C00B19888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F009A91CF3E81C00B19888 /* AppDelegate.m */; };
@@ -29,8 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		767A05E61CF534D0001807E2 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
-		767A05E71CF534D0001807E2 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		76C9D9211CF49D94004C18D3 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		76C9D9221CF49D94004C18D3 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		76F009A21CF3E81C00B19888 /* alocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,8 +89,6 @@
 				76F009AB1CF3E81C00B19888 /* ViewController.h */,
 				76F009AC1CF3E81C00B19888 /* ViewController.m */,
 				76F009AE1CF3E81C00B19888 /* Main.storyboard */,
-				767A05E61CF534D0001807E2 /* MainMenuViewController.h */,
-				767A05E71CF534D0001807E2 /* MainMenuViewController.m */,
 				76F009B11CF3E81C00B19888 /* Assets.xcassets */,
 				76F009B31CF3E81C00B19888 /* LaunchScreen.storyboard */,
 				76F009B61CF3E81C00B19888 /* Info.plist */,
@@ -225,7 +220,6 @@
 				76C9D9231CF49D94004C18D3 /* WhiskeyViewController.m in Sources */,
 				76F009AA1CF3E81C00B19888 /* AppDelegate.m in Sources */,
 				76F009A71CF3E81C00B19888 /* main.m in Sources */,
-				767A05E81CF534D0001807E2 /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
