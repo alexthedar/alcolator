@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76C9D9231CF49D94004C18D3 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9D9221CF49D94004C18D3 /* WhiskeyViewController.m */; };
 		76F009A71CF3E81C00B19888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F009A61CF3E81C00B19888 /* main.m */; };
 		76F009AA1CF3E81C00B19888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F009A91CF3E81C00B19888 /* AppDelegate.m */; };
 		76F009AD1CF3E81C00B19888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F009AC1CF3E81C00B19888 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76C9D9211CF49D94004C18D3 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		76C9D9221CF49D94004C18D3 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		76F009A21CF3E81C00B19888 /* alocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F009A61CF3E81C00B19888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76F009A81CF3E81C00B19888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				76F009B31CF3E81C00B19888 /* LaunchScreen.storyboard */,
 				76F009B61CF3E81C00B19888 /* Info.plist */,
 				76F009A51CF3E81C00B19888 /* Supporting Files */,
+				76C9D9211CF49D94004C18D3 /* WhiskeyViewController.h */,
+				76C9D9221CF49D94004C18D3 /* WhiskeyViewController.m */,
 			);
 			path = alocator;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F009AD1CF3E81C00B19888 /* ViewController.m in Sources */,
+				76C9D9231CF49D94004C18D3 /* WhiskeyViewController.m in Sources */,
 				76F009AA1CF3E81C00B19888 /* AppDelegate.m in Sources */,
 				76F009A71CF3E81C00B19888 /* main.m in Sources */,
 			);
@@ -404,6 +410,7 @@
 				76F009C61CF3E81C00B19888 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76F009C71CF3E81C00B19888 /* Build configuration list for PBXNativeTarget "alocatorTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +419,7 @@
 				76F009C91CF3E81C00B19888 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
