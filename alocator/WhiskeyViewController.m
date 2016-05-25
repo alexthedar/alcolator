@@ -27,6 +27,7 @@
     float alcoholPercentageOfWhiskey= 0.4;
     float ouncesOfAlcoholPerWhiskeyGlass = ouncesInOneWhiskeyGlass * alcoholPercentageOfWhiskey;
     float numberOfWhiskeyGlassesForEquivalentAlcoholAmount = ouncesOfAlcoholTotal/ouncesOfAlcoholPerWhiskeyGlass;
+    int wholeNumber = ceilf(numberOfWhiskeyGlassesForEquivalentAlcoholAmount);
     
     NSString *beerText;
     if(numberOfBeers == 1){
@@ -43,6 +44,7 @@
     
     NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ (with %.2f%% alcohol) contains as much alcohol as %.1f %@ of whiskey.",nil), numberOfBeers, beerText, [self.beerPercentTextField.text floatValue], numberOfWhiskeyGlassesForEquivalentAlcoholAmount, whiskeytext];
     self.resultLabel.text = resultText;
+        [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d", (int) wholeNumber]];
 
 }
 
